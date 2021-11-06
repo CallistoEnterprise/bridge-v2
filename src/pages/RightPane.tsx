@@ -214,7 +214,7 @@ const RightPane: React.FC = () => {
             } else {
                 const tkContract = getTokenContract(swapTokenAddr, library, account);
                 const allowed = await tkContract.allowance(account, bridgeAddr, {value:0});
-                if( allowed < amount ) {
+                if( parseFloat(allowed.toString()) < parseFloat(amount) ) {
                     await tkContract.approve(bridgeAddr, ethers.constants.MaxUint256, {value:0})
                 }
             }
