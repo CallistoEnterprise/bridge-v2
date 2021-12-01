@@ -173,6 +173,21 @@ export const tokenList = [
             ETH: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
             ETC: ""
         }
+    },{
+        name: "CAKE",
+        symbol: "CAKE",
+        decimals: {
+            CLO: 18,
+            BNB: 18,
+            ETH: 18,
+            ETC: 18
+        },
+        addresses: {
+            CLO: "0xCC2D45F7fE1b8864a13F5D552345eB3f5a005FEd",
+            BNB: "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            ETH: "",
+            ETC: ""
+        }
     }
 ]
 // ETC in BSC : 0x3d6545b08693daE087E957cb1180ee38B9e3c25E
@@ -246,7 +261,12 @@ export const addTokenList = [
     },{
         symbol: "BUSDT",
         chainId: 820,
-        address: "0xbf6c50889d3a620eb42c0f188b65ade90de958c4",
+        address: "0xbf6c50889d3a620eb42C0F188b65aDe90De958c4",
+        network: "Callisto"
+    },{
+        symbol: "CAKE",
+        chainId: 820,
+        address: "0xCC2D45F7fE1b8864a13F5D552345eB3f5a005FEd",
         network: "Callisto"
     }
 ]

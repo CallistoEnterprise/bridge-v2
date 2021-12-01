@@ -96,7 +96,7 @@ const StyledInput = styled.input`
 const BottomSection = styled.div`
     margin: 20px 10px 10px;
     width: calc(100% - 20px);
-    height: 300px;
+    height: 350px;
     background-color: #FFF;
     border-radius: 20px;
 `;
